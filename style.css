@@ -1,0 +1,98 @@
+* {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+body {
+  background: #eee;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.container .imgdiv {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .imgdiv img {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  -webkit-transform: rotate(-160deg);
+          transform: rotate(-160deg);
+  top: -650px;
+  left: 70px;
+  border-radius: 80px;
+}
+
+.container .textdiv {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .title {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666;
+}
+
+.container .title span {
+  font-size: 3em;
+  color: #000;
+}
+
+.container .price {
+  direction: rtl;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 20px;
+  color: #b36868;
+  font-size: 1.8em;
+}
+
+.container .price ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: .6em;
+}
+
+.container .price ul li {
+  list-style: none;
+  color: orange;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
